@@ -10,6 +10,7 @@ def map(array)
 end
 
 def reduce(array, sp=nil)
+  #sp = starting point. we make second argu
   if sp
     sum = sp
     i = 0 
