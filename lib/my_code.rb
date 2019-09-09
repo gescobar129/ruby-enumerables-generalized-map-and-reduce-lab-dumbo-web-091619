@@ -10,7 +10,7 @@ def map(array)
 end
 
 def reduce(array, sp=nil)
-  #sp = starting point. we make second argu
+  #sp = starting point. we make second argumen argu
   if sp
     sum = sp
     i = 0 
