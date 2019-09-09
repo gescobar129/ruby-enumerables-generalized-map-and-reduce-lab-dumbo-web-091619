@@ -10,7 +10,6 @@ def map(array)
 end
 
 def reduce(array, sp=nil)
-  #sp = starting point. we make second argument optional by giving it  a default value of nil.that means that by default the starting value will not exist.
   if sp
     sum = sp
     i = 0 
@@ -26,4 +25,6 @@ sum
 end
 
 
+
+#sp = starting point. we make second argument optional by giving it  a default value of nil.that means that by default the starting value will not exist.not until we explicitly give it a value.
 
