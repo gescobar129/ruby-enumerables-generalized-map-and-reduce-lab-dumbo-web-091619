@@ -9,4 +9,4 @@ def my_own_map(array)
   new_array
 end
 
-
+my_own_map{ |n| n * -1 }
